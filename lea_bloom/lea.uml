@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.uca.tutorat.lea</OriginalElement>
+  <nodes>
+    <node x="41.0" y="0.0">com.uca.tutorat.lea.Véhicule</node>
+    <node x="-258.2352941176469" y="123.00000000000011">com.uca.tutorat.lea.Main</node>
+    <node x="0.0" y="194.0">com.uca.tutorat.lea.Voiture</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.uca.tutorat.lea.Voiture" target="com.uca.tutorat.lea.Véhicule">
+      <point x="0.0" y="-72.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="50.5" y="169.0" />
+  <SelectedNodes>
+    <node>com.uca.tutorat.lea.Main</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

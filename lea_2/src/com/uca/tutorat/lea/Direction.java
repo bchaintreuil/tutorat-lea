@@ -6,7 +6,6 @@ public enum Direction {
     public int getDeltaX() {
         switch(this) {
             case UP:
-                return 0;
             case DOWN:
                 return 0;
             case LEFT:

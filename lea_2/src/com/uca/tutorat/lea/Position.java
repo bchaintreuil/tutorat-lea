@@ -21,4 +21,16 @@ public class Position {
     public double distanceTo(int x, int y) {
         return Math.sqrt(Math.pow(this.x - x, 2) + Math.pow(this.y - y, 2));
     }
+
+    public TranslatedPosition translated(Direction direction) {
+        return new TranslatedPosition(this, direction);
+    }
+
+    public TranslatedPosition translated(Direction direction, int n) {
+        TranslatedPosition newPos = new TranslatedPosition(this, direction);
+        for(int i = 0; i < n - 1; i++) {
+            newPos = newPos.translated(direction);
+        }
+        return newPos;
+    }
 }
